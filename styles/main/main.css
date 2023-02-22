@@ -117,6 +117,7 @@ body {
   padding: 15px 45px;
   margin: 0px 20px;
   transition: 0.2s;
+  color: #000000;
 }
 .intro__navbar a:hover {
   background-color: #754EF9;
