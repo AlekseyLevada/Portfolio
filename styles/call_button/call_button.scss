@@ -1,0 +1,30 @@
+.call__button img {
+    width: 50px;
+    position: fixed;
+    top: 4%;
+    right: 2%;
+    cursor: pointer;
+    animation: call_up_me 1.5s infinite;
+    box-shadow: 1px 1px 10px #000000;
+    border-radius: 50%;
+    border: 1px solid #754EF9;
+}
+
+@keyframes call_up_me {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(10px);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
