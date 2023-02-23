@@ -211,6 +211,7 @@
   }
   .container__sidebar {
     width: unset;
+    justify-content: space-around;
   }
   .container__cascade {
     display: none;
@@ -253,7 +254,7 @@
     margin-right: 0px;
   }
   .color__black, .color__blue {
-    font-size: 40px;
+    font-size: 52px;
   }
   .main__text-container {
     display: flex;
@@ -290,7 +291,7 @@
     margin: 5px;
   }
   .work__item img {
-    width: 280px;
+    width: 300px;
   }
   .testimonial {
     display: none;

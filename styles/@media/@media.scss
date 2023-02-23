@@ -291,6 +291,7 @@
 
     .container__sidebar {
         width: unset;
+        justify-content: space-around;
     }
 
     .container__cascade {
@@ -345,7 +346,7 @@
     }
 
     .color__black, .color__blue {
-        font-size: 40px;
+        font-size: 52px;
     }
 
     .main__text-container {
@@ -393,7 +394,7 @@
     .work__item {
         margin: 5px;
         img {
-            width: 280px;
+            width: 300px;
         }
     }
 
