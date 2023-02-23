@@ -54,9 +54,9 @@
     left: 0px;
   }
   .container__main-text::after {
-    width: 20px;
+    width: 40px;
     top: 34.5%;
-    left: 11%;
+    left: 10.5%;
   }
   .main__text-container {
     display: flex;
