@@ -28,6 +28,7 @@ body {
 .container__sidebar {
     background-color: #754EF9;
     width: 30%;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,6 +97,7 @@ body {
 
 .intro__main_content {
     width: 70%;
+    height: 100vh;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
