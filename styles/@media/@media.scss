@@ -72,8 +72,8 @@
         }
         &::after {
             width: 40px;
-            top: 34.5%;
-            left: 10.5%;
+            top: 134px;
+            left: 45px;
         }
     }
 
@@ -86,6 +86,18 @@
 
     .color__black, .color__blue {
         font-size: 80px;
+    }
+
+    .portfolio__work {
+        justify-content: flex-start;
+    }
+
+    .slider__item {
+        height: 430px;
+    }
+
+    .container__slider::before, .container__slider::after {
+        top: 8%;
     }
 
     .call__button {
