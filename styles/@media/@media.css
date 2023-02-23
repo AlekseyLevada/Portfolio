@@ -81,6 +81,42 @@
     right: 5%;
   }
 }
+@media (max-width: 767px) {
+  .intro__navbar {
+    display: none;
+  }
+  .container__cascade {
+    transform: scale(0.4);
+    left: 0;
+    position: unset;
+  }
+  .container__main-text {
+    top: 25%;
+    left: 0%;
+  }
+  .container__main-text:before, .container__main-text:after {
+    display: none;
+  }
+  .main__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .color__black, .color__blue {
+    font-size: 80px;
+  }
+  .button__container {
+    display: none;
+  }
+  .call__button img {
+    top: 5%;
+    right: 60%;
+  }
+  .portfolio__work {
+    justify-content: flex-start;
+  }
+}
 @media (min-width: 480px) and (max-width: 767px) {
   .container__cascade {
     display: none;
