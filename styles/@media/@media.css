@@ -263,6 +263,56 @@
   }
   .call__button img {
     top: 4%;
-    right: 50%;
+    right: 70%;
+  }
+  .capabilities {
+    padding: 30px 0px;
+  }
+  .capabilities__container {
+    flex-direction: column;
+  }
+  .capabilities__container-item {
+    min-height: unset;
+    padding: 50px;
+    margin: 20px;
+  }
+  .capabilities__container-item:hover {
+    transform: unset;
+    transition: unset;
+  }
+  .container__title h1 {
+    font-size: 25px;
+  }
+  .container__title h2 {
+    font-size: 20px;
+  }
+  .work__item {
+    margin: 5px;
+  }
+  .work__item img {
+    width: 280px;
+  }
+  .testimonial {
+    display: none;
+  }
+  .footer {
+    padding-top: 30px;
+  }
+  input:first-child {
+    width: 200px;
+    padding: 7px 0px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  input:last-child {
+    width: 90px;
+    padding: 7px 0px;
+    font-size: 13px;
+  }
+  .footer__nav {
+    display: none;
+  }
+  .footer__socials {
+    display: none;
   }
 }/*# sourceMappingURL=@media.css.map */
