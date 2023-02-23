@@ -53,6 +53,44 @@
 
 @media (min-width:768px) and (max-width:991px) {
     .intro__navbar {
-        display: none;
+        a {
+            margin: 0 10px;
+            padding: 10px;
+        }
+    }
+
+    .container__cascade {
+        transform: scale(0.6);
+    }
+
+    .container__main-text {
+        top: 5%;
+        &:before {
+            width: 430px;
+            top: 130px;
+            left: 0px;
+        }
+        &::after {
+            top: 132px;
+            left: 11%;
+        }
+    }
+
+    .main__text-container   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .color__black, .color__blue {
+        font-size: 80px;
+    }
+
+    .call__button {
+        img {
+            top: 10%;
+            right: 5%;
+        }
     }
 }
