@@ -5,13 +5,25 @@
             padding: 10px 20px;
         }   
     }
+
+    .capabilities__container-item {
+        padding: 30px;
+        margin: 10px;
+        min-height: 400px;
+    }
 }
 
-@media (max-width:1200px) {
+@media (min-width:992px) and (max-width:1199px) {
+
+    .container__main-text {
+        left: 9%;
+    }
+
     .main__text-container {
         display: flex;
         flex-direction: column;
     }
+
     .container__main-text::before {
         top: 165px;
         left: 0%;
@@ -21,7 +33,20 @@
         top: 167px;
         left: 11%;
     }
+
     .color__black {
         text-align: center;
+    }
+
+    .capabilities__container-item {
+        padding: 30px;
+        margin: 10px;
+        min-height: 400px;
+    }
+
+    .work__item {
+        img {
+            width: 310px;
+        }
     }
 }

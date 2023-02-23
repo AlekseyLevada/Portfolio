@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
 }
 
+/************************************* Intro Section *****************************/
 .intro__container {
   display: flex;
   height: 100vh;
@@ -89,13 +90,6 @@ body {
   height: 330px;
   background-color: #754EF9;
   border-radius: 50%;
-}
-
-.intro__becreative a {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 .intro__main_content {
@@ -245,6 +239,7 @@ body {
   background-color: #744EF3;
 }
 
+/*********************************** Capabilites Section *********************************/
 .capabilities {
   padding: 100px 0px;
 }
@@ -323,12 +318,13 @@ body {
   box-shadow: 1px 1px 6px #000000;
 }
 
+/********************************* Portfolio Section *****************************/
 .portfolio {
   padding-top: 10px;
 }
 
 .portfolio__container {
-  max-width: 1088px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -357,62 +353,15 @@ body {
 .portfolio__work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .work__item {
-  display: flex;
-  margin-bottom: 8px;
-  transition: 0.3s;
-  box-shadow: 2px 5px 15px #a9a7a7;
+  margin: 10px;
 }
 
-.work__item:hover {
-  box-shadow: 2px 5px 15px #a9a7a7;
-  transition: 0.3s;
-  transform: scale(1.02);
-}
-
-.work__item:nth-child(4) {
-  position: relative;
-}
-
-.work__overlay {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  background-color: #754EF9;
-  opacity: 0.7;
-}
-
-.overlay__main-text {
-  text-align: center;
-  color: #fff;
-  font-family: "Trebuchet MS";
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-}
-
-.overlay__text__info {
-  text-align: center;
-  color: #fff;
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  max-width: 460px;
-}
-
+/******************************** Testimonial Section ******************************/
 .testimonial {
   padding-top: 100px;
 }
