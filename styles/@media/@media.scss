@@ -289,8 +289,16 @@
         display: none;
     }
 
+    .container__sidebar {
+        width: unset;
+    }
+
     .container__cascade {
         display: none;
+    }
+
+    .intro__main_content {
+        width: 100%;
     }
 
     .intro__button {
@@ -345,5 +353,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .call__button {
+        img {
+           top: 4%;
+        right: 50%; 
+        } 
     }
 }

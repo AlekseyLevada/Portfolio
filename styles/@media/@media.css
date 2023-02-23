@@ -209,8 +209,14 @@
   .intro__navbar {
     display: none;
   }
+  .container__sidebar {
+    width: unset;
+  }
   .container__cascade {
     display: none;
+  }
+  .intro__main_content {
+    width: 100%;
   }
   .intro__button {
     display: none;
@@ -254,5 +260,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .call__button img {
+    top: 4%;
+    right: 50%;
   }
 }/*# sourceMappingURL=@media.css.map */
