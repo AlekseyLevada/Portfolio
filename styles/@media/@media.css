@@ -11,7 +11,7 @@
   }
 }
 /************************************************************************/
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .intro__navbar a {
     margin: 0px 10px;
     padding: 10px;
@@ -44,7 +44,7 @@
   }
 }
 /*******************************************************************************/
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .intro__navbar a {
     margin: 0 10px;
     padding: 10px;
@@ -102,7 +102,7 @@
   }
 }
 /*****************************************************************************/
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .intro__navbar {
     display: none;
   }
@@ -131,7 +131,8 @@
     align-items: center;
     justify-content: center;
   }
-  .color__black, .color__blue {
+  .color__black,
+  .color__blue {
     font-size: 60px;
   }
   .button__container {
@@ -162,7 +163,8 @@
   .container__title h2 {
     font-size: 20px;
   }
-  .container__slider::before, .container__slider::after {
+  .container__slider::before,
+  .container__slider::after {
     top: 10%;
   }
   .slider__item {
@@ -200,5 +202,57 @@
   }
   .footer__nav a {
     font-size: 10px;
+  }
+}
+/*****************************************************************/
+@media (min-width: 320px) and (max-width: 479px) {
+  .intro__navbar {
+    display: none;
+  }
+  .container__cascade {
+    display: none;
+  }
+  .intro__button {
+    display: none;
+  }
+  .main__text-container {
+    margin-bottom: 20px;
+  }
+  .container__main-text {
+    left: 0;
+    top: 25%;
+  }
+  .container__main-text::before {
+    display: none;
+  }
+  .container__main-text::after {
+    display: none;
+  }
+  .container__sub-text {
+    font-size: 20px;
+  }
+  .sidebar__logo {
+    writing-mode: vertical-lr;
+  }
+  .socials {
+    height: 255px;
+    writing-mode: vertical-lr;
+    justify-content: space-between;
+  }
+  .socials img {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .socials__text {
+    margin-right: 0px;
+  }
+  .color__black, .color__blue {
+    font-size: 40px;
+  }
+  .main__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=@media.css.map */
