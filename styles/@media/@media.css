@@ -80,4 +80,17 @@
     top: 10%;
     right: 5%;
   }
+}
+@media (max-width: 767px) {
+  .intro__navbar {
+    display: none;
+  }
+  .container__cascade {
+    transform: scale(0.4);
+    left: 0;
+    position: unset;
+  }
+  .button__container {
+    display: none;
+  }
 }/*# sourceMappingURL=@media.css.map */
