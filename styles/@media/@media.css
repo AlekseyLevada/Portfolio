@@ -116,4 +116,20 @@
   .portfolio__work {
     justify-content: flex-start;
   }
+}
+@media (max-width: 480px) {
+  .container__cascade {
+    display: none;
+  }
+  .socials {
+    writing-mode: vertical-lr;
+    position: relative;
+    bottom: 0%;
+    height: 300px;
+    justify-content: space-around;
+  }
+  .socials img {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=@media.css.map */
