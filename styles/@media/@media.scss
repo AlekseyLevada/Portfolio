@@ -50,3 +50,9 @@
         }
     }
 }
+
+@media (min-width:768px) and (max-width:991px) {
+    .intro__navbar {
+        display: none;
+    }
+}
