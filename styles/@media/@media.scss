@@ -119,7 +119,37 @@
         position: unset;
     }
 
+    .container__main-text {
+        top: 25%;
+        left: 0%;
+        &:before, &:after {
+            display: none;
+        }
+    }
+
+    .main__text-container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .color__black, .color__blue {
+        font-size: 80px;
+    }
+
     .button__container {
         display: none;
+    }
+
+    .call__button {
+        img {
+            top: 5%;
+            right: 60%;
+        }
+    }
+
+    .portfolio__work {
+        justify-content: flex-start;
     }
 }
