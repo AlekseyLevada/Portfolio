@@ -5,14 +5,14 @@ var body = $('body')
 
 burgerMenu.click(function(){
     mobileMenu.css({
-        transition:'.7s',
+        transition:'.2s',
         transform:'translateX(0%)',
     })
 })
 
 headerClose.click(function(){
     mobileMenu.css({
-        transition:'.7s',
+        transition:'.2s',
         transform:'translateX(105%)',
     })
 })
