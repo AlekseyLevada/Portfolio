@@ -88,15 +88,11 @@
         top: -10%;
 
         &:before {
-            width: 430px;
-            top: 131px;
-            left: 0px;
+            display: none;
         }
 
         &::after {
-            width: 40px;
-            top: 133px;
-            left: 48px;
+            display: none;
         }
     }
 
@@ -124,6 +120,12 @@
 
     .work__item {
         margin: 5px;
+    }
+
+    .work__item {
+        img {
+            width: 280px;
+        }
     }
 
     .capabilities {

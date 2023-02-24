@@ -61,14 +61,10 @@
     top: -10%;
   }
   .container__main-text:before {
-    width: 430px;
-    top: 131px;
-    left: 0px;
+    display: none;
   }
   .container__main-text::after {
-    width: 40px;
-    top: 133px;
-    left: 48px;
+    display: none;
   }
   .main__text-container {
     display: flex;
@@ -90,6 +86,9 @@
   }
   .work__item {
     margin: 5px;
+  }
+  .work__item img {
+    width: 280px;
   }
   .capabilities {
     padding: 50px 0px;
