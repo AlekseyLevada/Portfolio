@@ -16,6 +16,10 @@
     margin: 0px 10px;
     padding: 10px;
   }
+  .container__cascade {
+    transform: scale(0.9);
+    left: 20%;
+  }
   .container__main-text {
     left: 9%;
   }
@@ -190,6 +194,9 @@
   .container__title h2 {
     font-size: 20px;
   }
+  .work__item img {
+    width: 200px;
+  }
   .container__slider::before,
   .container__slider::after {
     top: 10%;
@@ -280,7 +287,8 @@
   .socials__text {
     margin-right: 0px;
   }
-  .color__black, .color__blue {
+  .color__black,
+  .color__blue {
     font-size: 52px;
   }
   .main__text-container {
