@@ -17,7 +17,7 @@
 
 /************************************************************************/
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:992px) and (max-width:1200px) {
 
     .intro__navbar {
         a {
@@ -66,7 +66,7 @@
 /*******************************************************************************/
 
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:992px) {
     .intro__navbar {
         a {
             margin: 0 10px;
@@ -76,6 +76,7 @@
 
     .container__cascade {
         transform: scale(0.6);
+        left: 5%;
     }
 
     .container__main-text {
@@ -131,6 +132,19 @@
     .container__slider::before,
     .container__slider::after {
         top: 8%;
+    }
+
+    input {
+        &:first-child {
+            width: 300px;
+            padding: 10px 0px;
+            font-size: 14px;
+        }
+        &:last-child {
+            width: 130px;
+            font-size: 14px;
+            padding: 11px 0px;
+        }
     }
 
     .call__button {
