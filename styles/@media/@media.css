@@ -151,7 +151,7 @@
     margin-bottom: 20px;
   }
   .container__main-text {
-    top: 25%;
+    top: -10%;
     left: 0%;
   }
   .container__main-text::before {

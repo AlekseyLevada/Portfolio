@@ -544,7 +544,6 @@ input:first-child {
   border: 1px solid #754EF9;
   width: 500px;
   padding: 16px 0px;
-  text-transform: capitalize;
   transition: 0.5s;
   font-size: 15px;
 }
