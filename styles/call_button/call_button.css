@@ -5,7 +5,7 @@
   right: 2%;
   cursor: pointer;
   animation: call_up_me 1.5s infinite;
-  box-shadow: 1px 1px 10px #000000;
+  box-shadow: 1px 1px 10px #474747;
   border-radius: 50%;
   border: 1px solid #754EF9;
 }

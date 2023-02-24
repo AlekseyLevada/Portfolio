@@ -123,6 +123,9 @@
   .intro__navbar {
     display: none;
   }
+  .burger-menu__wrapper {
+    display: flex;
+  }
   .container__sidebar {
     width: 25%;
   }
@@ -172,6 +175,7 @@
     display: none;
   }
   .call__button img {
+    top: 2%;
     right: 70%;
   }
   .capabilities {
@@ -245,6 +249,9 @@
   .intro__navbar {
     display: none;
   }
+  .burger-menu__wrapper {
+    display: flex;
+  }
   .container__sidebar {
     width: unset;
     justify-content: space-around;
@@ -300,7 +307,7 @@
     align-items: center;
   }
   .call__button img {
-    top: 4%;
+    top: 2%;
     right: 70%;
   }
   .capabilities {

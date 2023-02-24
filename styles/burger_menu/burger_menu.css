@@ -1,0 +1,24 @@
+.burger-menu__wrapper {
+  display: none;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.burger-menu {
+  display: block;
+  cursor: pointer;
+}
+
+.burger-menu__container {
+  display: block;
+}
+
+.burger-menu__item {
+  display: block;
+  width: 35px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #454ef9;
+  margin: 4px;
+}/*# sourceMappingURL=burger_menu.css.map */
