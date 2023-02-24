@@ -79,6 +79,10 @@
         }
     }
 
+    .container__sidebar {
+        justify-content: space-around;
+    }
+
     .container__cascade {
         transform: scale(0.6);
         left: 5%;
