@@ -387,6 +387,10 @@
   .footer__nav {
     display: none;
   }
+  .popup {
+    transform: scale(0.8);
+    padding: 10px;
+  }
   .popup__phone_container {
     display: none;
   }
