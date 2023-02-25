@@ -15,106 +15,86 @@
 
 .popup {
   position: relative;
+  padding: 20px;
   font-family: "Trebuchet MS";
-  width: 60%;
-  height: 55%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   color: #A0F4EF;
-  background: linear-gradient(90deg, #754EF9, #0085d4, #754EF9);
-  border: 5px solid #00FE8F;
-  border-radius: 10px;
-}
-
-.popup h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 600;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.popup h2 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.popup h3 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.popup_form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input.popup__form-input {
-  color: #000;
-  background: #c2faf6;
-  box-shadow: inset 0px 0px 3px #000;
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 400px;
-  padding: 5px;
-  margin: 10px;
-  width: 400px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-}
-
-.buttton_container {
-  width: 100%;
-}
-
-.popup__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px auto 10px auto;
-  background: linear-gradient(45deg, #ebff55, #fff314);
-  border-radius: 10px;
-  width: 250px;
-  height: 50px;
-  color: #343a3a;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0);
-}
-
-.popup__button:active {
-  box-shadow: inset 1px 0px 3px #000;
+  background-color: #754EF9;
+  border: 3px solid #E8D30C;
+  border-radius: 5px;
 }
 
 .popup__close {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.popup .popup__close img {
-  width: 35px;
-  height: 35px;
-  padding: 5px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  transform: rotate(360deg);
+.popup__close img {
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
 
-.popup img {
-  width: 125px;
-  height: 125px;
+.popup h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.popup h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.popup h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.popup__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.popup__form .popup__form-name {
+  font-size: 12px;
+  padding: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.popup__form .popup__form-phone {
+  font-size: 12px;
+  padding: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.popup__button {
+  font-family: "Open Sans";
+  font-weight: 400;
+  border: none;
+  padding: 5px;
+  background-color: #A0F4EF;
+  border-radius: 3px;
+  box-shadow: 1px -1px 4px #c9c9c9;
+  margin: 10px 0px;
+}
+
+.popup__phone_container img {
   position: absolute;
-  bottom: 40px;
-  right: 75px;
-  transform: rotate(260deg);
+  right: -15%;
+  bottom: -15%;
+  width: 150px;
 }/*# sourceMappingURL=popup.css.map */
