@@ -369,6 +369,12 @@
         }
     }
 
+    .popup__phone_container {
+        img {
+            width: 100px;
+            right: -3%;
+        }
+    }
 }
 
 
@@ -525,6 +531,10 @@
     }
 
     .footer__nav {
+        display: none;
+    }
+
+    .popup__phone_container {
         display: none;
     }
 }

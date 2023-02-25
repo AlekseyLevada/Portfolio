@@ -266,6 +266,10 @@
   .footer__nav a {
     font-size: 12px;
   }
+  .popup__phone_container img {
+    width: 100px;
+    right: -3%;
+  }
 }
 /*****************************************************************/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -381,6 +385,9 @@
     flex-direction: column;
   }
   .footer__nav {
+    display: none;
+  }
+  .popup__phone_container {
     display: none;
   }
 }/*# sourceMappingURL=@media.css.map */
