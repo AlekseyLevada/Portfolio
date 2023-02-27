@@ -69,3 +69,20 @@ gsap.from('.capabilities__container', {
     scale: 0,
     transformOrigin: 'center center',
 })
+gsap.from('.portfolio .container__title', {
+    scrollTrigger: {
+        trigger: '.capabilities',
+        start:'5% top',
+        scrub: true,
+    },
+    duration:.2,
+    yPercent: 70,
+})
+gsap.from('.testimonial .container__title', {
+    scrollTrigger: {
+        trigger: '.testimonial',
+        start:'top bottom',
+        scrub: true,
+    },
+    yPercent: 50,
+})
