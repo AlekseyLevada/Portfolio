@@ -365,11 +365,11 @@ body {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  outline: 2px solid #754EF9;
+  outline: 1px solid #754EF9;
 }
 
 .work__item img {
-  border: 2px solid #754EF9;
+  border: 1px solid #754EF9;
 }
 
 /******************************** Testimonial Section ******************************/
