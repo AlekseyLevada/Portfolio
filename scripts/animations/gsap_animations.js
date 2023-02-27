@@ -4,7 +4,7 @@ gsap.from('.call__button', {duration: 3, delay: 3, opacity: 0})
 
 const tlInnerSidebar = gsap.timeline()
 tlInnerSidebar.from('.container__sidebar', {
-    duration: 2,
+    duration: 1,
     delay:.2,
     opacity: 0,
 })
@@ -22,7 +22,6 @@ tlInnerSidebar.from('.container__sidebar', {
     duration: .7,
     opacity: 0,
     x: -200,
-    ease: "bounce.out",
 })
 
 const tlInnerIntro = gsap.timeline()
@@ -59,4 +58,14 @@ gsap.to('.container__main-text', {
     },
     y: 200,
     scale: .8,
+})
+gsap.from('.capabilities__container', {
+    scrollTrigger: {
+        trigger: '.capabilities',
+        start: '-40% center',
+        end: '+=400px',
+        scrub: true,
+    },
+    scale: 0,
+    transformOrigin: 'center center',
 })
