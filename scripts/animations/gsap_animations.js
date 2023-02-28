@@ -19,7 +19,7 @@ tlInnerSidebar.from('.container__sidebar', {
     opacity: 0,
 })
 .from('.socials', {
-    duration: .7,
+    duration: .2,
     opacity: 0,
     x: -200,
 })
@@ -50,6 +50,7 @@ gsap.to('.container__cascade', {
     y: 100,
     scale: .8,
 })
+
 gsap.to('.container__main-text', {
     scrollTrigger: {
         trigger: '.intro',
@@ -59,6 +60,7 @@ gsap.to('.container__main-text', {
     y: 200,
     scale: .8,
 })
+
 gsap.from('.capabilities__container', {
     scrollTrigger: {
         trigger: '.capabilities',
@@ -69,20 +71,55 @@ gsap.from('.capabilities__container', {
     scale: 0,
     transformOrigin: 'center center',
 })
-gsap.from('.portfolio .container__title', {
+
+gsap.to('.portfolio .container__title', {
     scrollTrigger: {
         trigger: '.capabilities',
         start:'5% top',
         scrub: true,
     },
-    duration:.2,
-    yPercent: 70,
+    yPercent: -100,
 })
-gsap.from('.testimonial .container__title', {
+
+gsap.to('.testimonial .container__title', {
     scrollTrigger: {
         trigger: '.testimonial',
-        start:'top bottom',
+        start:'top 40%',
         scrub: true,
     },
-    yPercent: 50,
+    yPercent: -150,
+})
+
+gsap.from('.container__slider', {
+    scrollTrigger: {
+        trigger: '.testimonial',
+        start: '-40% top',
+    },
+    opacity: 0,
+    scale: 0,
+    skewX: 30,
+    skewY: 30,
+    duration: 1,
+})
+
+gsap.from('.pagination__dot', {
+    scrollTrigger: {
+        trigger: '.testimonial',
+        start: 'top 20%',
+    },
+    yPercent: 300,
+    opacity: 0,
+    stagger: .2,
+    scrub: true,
+})
+
+gsap.from('.footer__row a, .footer__nav, .footer__socials', {
+    scrollTrigger: {       
+        trigger: '.footer__row',
+        toggleActions: 'restart'
+    },
+    delay: 1,
+    opacity: 0,
+    stagger: .2,
+    yPercent:100,
 })
