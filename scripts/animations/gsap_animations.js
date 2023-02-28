@@ -144,3 +144,19 @@ gsap.from('.footer__row a, .footer__nav, .footer__socials', {
     stagger: .1,
     yPercent:100,
 })
+
+gsap.from('.popup', {
+    scrollTrigger: {
+        trigger:'.popup-overlay active',
+        toggleActions: 'restart',
+    },
+    duration: 1,
+    opacity: 0,
+    scale: 0,
+})
+
+gsap.from('.burger-menu__item', {
+    xPercent: 200, 
+    stagger: .3,
+    duration: .1,
+})
