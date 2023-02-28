@@ -77,7 +77,7 @@ gsap.to('.portfolio .container__title', {
         start:'5% top',
         scrub: true,
     },
-    yPercent: -100,
+    yPercent: -50,
 })
 
 gsap.from('.work__item', {
