@@ -1,6 +1,10 @@
 gsap.registerPlugin(ScrollTrigger)
 
-gsap.from('.call__button', {duration: 3, delay: 3, opacity: 0})
+gsap.from('.call__button', {
+    duration: 2,
+    delay: 1,
+    opacity: 0
+})
 
 const tlInnerSidebar = gsap.timeline()
 tlInnerSidebar.from('.container__sidebar', {
@@ -143,16 +147,6 @@ gsap.from('.footer__row a, .footer__nav, .footer__socials', {
     opacity: 0,
     stagger: .1,
     yPercent:100,
-})
-
-gsap.from('.popup', {
-    scrollTrigger: {
-        trigger:'.popup-overlay active',
-        toggleActions: 'restart',
-    },
-    duration: 1,
-    opacity: 0,
-    scale: 0,
 })
 
 gsap.from('.burger-menu__item', {
