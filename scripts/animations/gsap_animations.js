@@ -113,13 +113,23 @@ gsap.from('.pagination__dot', {
     scrub: true,
 })
 
+gsap.from('.container__form', {
+    scrollTrigger: {
+        trigger: '.container__form',
+        toggleActions: 'restart',
+    },
+    delay: .5,
+    scale: 0,
+    opacity: 0,
+})
+
 gsap.from('.footer__row a, .footer__nav, .footer__socials', {
     scrollTrigger: {       
         trigger: '.footer__row',
         toggleActions: 'restart'
     },
-    delay: 1,
+    delay: .5,
     opacity: 0,
-    stagger: .2,
+    stagger: .1,
     yPercent:100,
 })
