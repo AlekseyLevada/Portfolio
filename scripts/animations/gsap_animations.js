@@ -85,11 +85,11 @@ gsap.from('.work__item', {
         trigger: '.portfolio .container__title',
         start: 'top 40%',
     },
-    duration: 2,
-    delay: .5,
+    stagger: .7,
+    duration: 1,
     opacity: 0,
     scale: 0,
-    ease: 'bounce.out',
+    ease: 'elastic.out(1, 0.5)',
 })
 
 gsap.to('.testimonial .container__title', {
