@@ -19,7 +19,6 @@ tlInnerSidebar.from('.container__sidebar', {
     opacity: 0,
 })
 .from('.socials', {
-    duration: .2,
     opacity: 0,
     x: -200,
 })
@@ -36,7 +35,6 @@ tlInnerIntro.from('.footer-line', {
     stagger: .15,
 })
 .from('.container__main-text', {
-    duration: 1,
     yPercent: 50,
     opacity: 0,
 })
@@ -82,16 +80,16 @@ gsap.to('.portfolio .container__title', {
     yPercent: -100,
 })
 
-gsap.from('.portfolio__work', {
-    scrollTriger: {
-        trigger: '.portfolio__work',
-        toggleActions: 'restart',
+gsap.from('.work__item', {
+    scrollTrigger: {
+        trigger: '.portfolio .container__title',
+        start: 'top 40%',
     },
-    delay: 2,
-    scrub: true,
+    duration: 2,
+    delay: .5,
     opacity: 0,
     scale: 0,
-    yPercent: 100,
+    ease: 'bounce.out',
 })
 
 gsap.to('.testimonial .container__title', {
