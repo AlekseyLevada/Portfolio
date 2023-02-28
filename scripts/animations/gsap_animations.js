@@ -30,9 +30,10 @@ tlInnerIntro.from('.footer-line', {
     delay:.2,
     opacity: 0,
 })
-.from('.intro__navbar', {
+.from('li', {
     duration: 1,
     y: -50,
+    stagger: .15,
 })
 .from('.container__main-text', {
     duration: 1,
@@ -79,6 +80,18 @@ gsap.to('.portfolio .container__title', {
         scrub: true,
     },
     yPercent: -100,
+})
+
+gsap.from('.portfolio__work', {
+    scrollTriger: {
+        trigger: '.portfolio__work',
+        toggleActions: 'restart',
+    },
+    delay: 2,
+    scrub: true,
+    opacity: 0,
+    scale: 0,
+    yPercent: 100,
 })
 
 gsap.to('.testimonial .container__title', {

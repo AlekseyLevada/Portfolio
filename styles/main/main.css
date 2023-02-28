@@ -123,6 +123,11 @@ body {
   box-shadow: -4px 6px 6px #e1e1e1;
 }
 
+.intro__navbar ul {
+  display: flex;
+  list-style: none;
+}
+
 .container__main-text {
   position: relative;
   left: 5%;
