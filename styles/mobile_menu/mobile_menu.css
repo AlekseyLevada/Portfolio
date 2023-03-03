@@ -21,6 +21,10 @@
 .mobile-menu__header .color__black,
 .mobile-menu__header .color__blue {
   font-size: 40px;
+  text-shadow: none;
+}
+.mobile-menu__header .color__black {
+  color: #000;
 }
 
 .mobile-menu__header_text {

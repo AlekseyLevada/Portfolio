@@ -21,6 +21,11 @@
     .color__black,
     .color__blue {
         font-size: 40px;
+        text-shadow: none;
+    }
+
+    .color__black {
+        color: #000
     }
 }
 

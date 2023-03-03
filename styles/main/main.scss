@@ -40,6 +40,7 @@ body {
 
 .sidebar__logo-link {
     color: #fff;
+    text-shadow: 0px 0px 5px #000;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     line-height: 41px;
@@ -113,7 +114,7 @@ body {
         font-family: 'Open Sans';
         font-size: 14px;
         font-weight: 600;
-        text-shadow: 1px 1px 7px #fff;
+        text-shadow: 0px 0px 3px #686868;
         line-height: 20px;
         text-transform: uppercase;
         border-radius: 25px;
@@ -125,7 +126,6 @@ body {
         &:hover {
             background-color: #754EF9;
             color: #fff;
-            // box-shadow: -4px 6px 6px #e1e1e1;
         }
     }
 }
@@ -141,7 +141,6 @@ body {
 }
 
 .color__black {
-    // color: #000;
     color: #fff;
     text-shadow: 2px 2px 10px #000;
     font-family: 'Trebuchet MS';
@@ -152,7 +151,7 @@ body {
 
 .color__blue {
     color: #754EF9;
-    text-shadow: 2px 2px 10px #000;
+    text-shadow: 2px 2px 5px #000;
     font-family: 'Trebuchet MS';
     font-size: 100px;
     font-weight: bold;
@@ -165,31 +164,8 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
-    text-shadow: 1px 1px 10px #fff;
+    text-shadow: 0px 0px 3px #fff;
 }
-
-// .container__main-text::before {
-//     content: '';
-//     width: 545px;
-//     height: 15px;
-//     position: absolute;
-//     top: 50px;
-//     left: 165px;
-//     background-color: rgb(255, 255, 255);
-//     // box-shadow: -4px 6px 6px #b9b8b8;
-//     border-radius: 5px;
-//     z-index: -1;
-// }
-
-// .container__main-text::after {
-//     content: '';
-//     width: 40px;
-//     height: 15px;
-//     background-color: #ffffff;
-//     position: absolute;
-//     top: 50px;
-//     left: 32%;
-// }
 
 .button__container {
     display: flex;
@@ -237,6 +213,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+
     img {
         width: 20px;
         height: 20px;
@@ -246,6 +223,7 @@ body {
 }
 
 .socials__text {
+    text-shadow: 0px 0px 5px #000;
     margin-right: 15px;
 }
 
@@ -298,7 +276,7 @@ body {
 }
 
 .capabilities__container-item span:nth-child(2) {
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
     font-weight: 600;
     display: block;
     width: 150px;
@@ -314,7 +292,7 @@ body {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 15px;
-    text-align:center;
+    text-align: center;
 }
 
 .container-item__button {
@@ -327,10 +305,11 @@ body {
     transition: .3s;
     border-radius: 20px;
     cursor: pointer;
-    a{
-      color: #fff; 
-      font-size: 11px;
-      line-height: 15px;
+
+    a {
+        color: #fff;
+        font-size: 11px;
+        line-height: 15px;
     }
 }
 
