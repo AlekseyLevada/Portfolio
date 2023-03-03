@@ -24,7 +24,7 @@
     left: 20%;
   }
   .container__main-text {
-    left: 9%;
+    left: 10%;
   }
   .main__text-container {
     display: flex;
@@ -71,13 +71,11 @@
     top: 5%;
   }
   .socials {
-    writing-mode: vertical-lr;
-    height: 250px;
+    width: 220px;
     justify-content: space-between;
   }
   .socials img {
-    margin-right: 0px;
-    margin-bottom: 10px;
+    margin-right: 5px;
   }
   .socials__text {
     margin-right: 0px;

@@ -7,8 +7,9 @@ gsap.from('.call__button', {
 })
 
 const tlInnerSidebar = gsap.timeline()
+
 tlInnerSidebar.from('.container__sidebar', {
-    duration: 1,
+    duration: 2,
     delay:.2,
     opacity: 0,
 })
@@ -27,7 +28,14 @@ tlInnerSidebar.from('.container__sidebar', {
     x: -200,
 })
 
+gsap.from('.media', {
+    delay: .2,
+    opacity: 0,
+    duration: 5,
+})
+
 const tlInnerIntro = gsap.timeline()
+
 tlInnerIntro.from('.footer-line', {
     duration: 2,
     delay:.2,
