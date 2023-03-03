@@ -98,6 +98,7 @@ body {
 }
 
 .intro__main_content {
+    position: relative;
     width: 70%;
     height: 100vh;
     padding-top: 30px;
@@ -112,6 +113,7 @@ body {
         font-family: 'Open Sans';
         font-size: 14px;
         font-weight: 600;
+        text-shadow: 1px 1px 7px #fff;
         line-height: 20px;
         text-transform: uppercase;
         border-radius: 25px;
@@ -123,7 +125,7 @@ body {
         &:hover {
             background-color: #754EF9;
             color: #fff;
-            box-shadow: -4px 6px 6px #e1e1e1;
+            // box-shadow: -4px 6px 6px #e1e1e1;
         }
     }
 }
@@ -139,7 +141,9 @@ body {
 }
 
 .color__black {
-    color: #000;
+    // color: #000;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
     font-family: 'Trebuchet MS';
     font-size: 100px;
     font-weight: bold;
@@ -148,6 +152,7 @@ body {
 
 .color__blue {
     color: #754EF9;
+    text-shadow: 2px 2px 10px #000;
     font-family: 'Trebuchet MS';
     font-size: 100px;
     font-weight: bold;
@@ -160,30 +165,31 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
+    text-shadow: 1px 1px 10px #fff;
 }
 
-.container__main-text::before {
-    content: '';
-    width: 545px;
-    height: 15px;
-    position: absolute;
-    top: 50px;
-    left: 165px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: -4px 6px 6px #b9b8b8;
-    border-radius: 5px;
-    z-index: -1;
-}
+// .container__main-text::before {
+//     content: '';
+//     width: 545px;
+//     height: 15px;
+//     position: absolute;
+//     top: 50px;
+//     left: 165px;
+//     background-color: rgb(255, 255, 255);
+//     // box-shadow: -4px 6px 6px #b9b8b8;
+//     border-radius: 5px;
+//     z-index: -1;
+// }
 
-.container__main-text::after {
-    content: '';
-    width: 40px;
-    height: 13px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 52px;
-    left: 32%;
-}
+// .container__main-text::after {
+//     content: '';
+//     width: 40px;
+//     height: 15px;
+//     background-color: #ffffff;
+//     position: absolute;
+//     top: 50px;
+//     left: 32%;
+// }
 
 .button__container {
     display: flex;
@@ -635,4 +641,14 @@ input:hover:last-child {
 
 .footer__socials img:last-child {
     margin-right: 0px;
+}
+
+.media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    z-index: -1;
 }
