@@ -44,7 +44,8 @@
         transition: .2s;
         background-color: #EB4247;
         &::before, &::after {
-            background-color: #000;
+            background-color: #ffffff;
+            transition: .2s;
         }
     }
     &::before {

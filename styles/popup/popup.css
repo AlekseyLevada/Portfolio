@@ -48,7 +48,8 @@
   background-color: #EB4247;
 }
 .close__item:hover::before, .close__item:hover::after {
-  background-color: #000;
+  background-color: #ffffff;
+  transition: 0.2s;
 }
 .close__item::before {
   content: "";
